@@ -1,0 +1,93 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "image": "assets/img/GF_2022.png",
+      "name": "Ghent Festivities 2022 (duplicate)",
+      "year": "2023",
+      "status": "Finished",
+      "socials": [
+        {
+          "id": 1,
+          "icon": "ri-github-fill",
+          "name": "Github",
+          "url": "https://github.com/pgm-stefvanboven/Gentse_Feesten_2022_fictief"
+        },
+        {
+          "id": 2,
+          "icon": "ri-eye-fill",
+          "name": "Website",
+          "url": "https://pgm-stefvanboven.github.io/Gentse_Feesten_2022_fictief/"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "image": "assets/img/chez_pgm.png",
+      "name": "Bistro Chez PGM website (fictional project)",
+      "year": "2023",
+      "status": "Finished",
+      "socials": [
+        {
+          "id": 3,
+          "icon": "ri-github-fill",
+          "name": "Github",
+          "url": "https://github.com/pgm-stefvanboven/UID-Project-Chez-PGM"
+        },
+        {
+          "id": 4,
+          "icon": "ri-eye-fill",
+          "name": "Website",
+          "url": "https://pgm-stefvanboven.github.io/UID-Project-Chez-PGM/"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "image": "assets/img/afstud.png",
+      "name": "Graduation projects",
+      "year": "2022",
+      "status": "Finished",
+      "socials": [
+        {
+          "id": 3,
+          "icon": "ri-github-fill",
+          "name": "Github",
+          "url": "https://github.com/pgm-stefvanboven/pgm-1-afstudeerprojecten-Van-Boven-Stef"
+        },
+        {
+          "id": 4,
+          "icon": "ri-eye-fill",
+          "name": "Website",
+          "url": "https://pgm-stefvanboven.github.io/pgm-1-afstudeerprojecten-Van-Boven-Stef/"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "image": "assets/img/digi_agency.png",
+      "name": "Digital Agency (fictional project)",
+      "year": "2022",
+      "status": "Finished",
+      "socials": [
+        {
+          "id": 5,
+          "icon": "ri-github-fill",
+          "name": "Github",
+          "url": "https://github.com/pgm-stefvanboven/WebDesign-Project-1-Digital-Agency"
+        },
+        {
+          "id": 6,
+          "icon": "ri-eye-fill",
+          "name": "Website",
+          "url": "https://pgm-stefvanboven.github.io/WebDesign-Project-1-Digital-Agency/"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "image": "",
+      "name": ""
+    }
+  ]
+}
