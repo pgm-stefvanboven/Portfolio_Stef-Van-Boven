@@ -1,18 +1,17 @@
 document.addEventListener("DOMContentLoaded", function () {
   // Check if the page is the homepage
-  const isHomePage = window.location.pathname === '/index.html';
+  const isHomePage = window.location.pathname.includes('index');
 
   fetch("./assets/js/data/projects.json")
     .then((response) => response.json())
     .then((data) => {
-      const currentDate = new Date();
       let projectsToShow = data.projects;
 
-      // Filter the projects only if it is the home page
+      // Filter and sort the projects only if it is the home page
       if (isHomePage) {
-        projectsToShow = projectsToShow.filter(project => new Date(project.year) >= new Date('2023-01-01'));
-        projectsToShow.sort((a, b) => new Date(b.year) - new Date(a.year)); // Sort projects by year descending
-        projectsToShow = projectsToShow.slice(0, 3); // Only show the first three most recent projects on the homepage
+        // Sort projects by year descending (most recent first)
+        projectsToShow = projectsToShow.sort((a, b) => new Date(b.year) - new Date(a.year));
+        projectsToShow = projectsToShow.slice(0, 3); // Only show the first three most recent projects
       }
 
       const workContainer = document.querySelector(".work__container");
@@ -47,7 +46,6 @@ document.addEventListener("DOMContentLoaded", function () {
           <p class="work__year">${project.year}</p>
           <div class="work__socials">
             ${socialLinks}
-            
           </div>
         `;
 
