@@ -47,9 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
           <p class="work__year">${project.year}</p>
           <div class="work__socials">
             ${socialLinks}
-            <a href="#" class="work__link">
-              <i class="ri-arrow-right-circle-line work__social__icon"></i>
-            </a>
+            
           </div>
         `;
 

@@ -24,7 +24,7 @@
     {
       "id": 2,
       "image": "assets/img/chez_pgm.png",
-      "name": "Bistro Chez PGM website (fictional project)",
+      "name": "Chez PGM (fictional project)",
       "year": "2023",
       "status": "Finished",
       "socials": [
@@ -86,8 +86,46 @@
     },
     {
       "id": 5,
-      "image": "",
-      "name": ""
+      "image": "assets/img/icon-partygram.png",
+      "name": "Partygram 🎉",
+      "year": "2024",
+      "status": "Finished",
+      "socials": [
+        {
+          "id": 7,
+          "icon": "ri-github-fill",
+          "name": "Github",
+          "url": "https://github.com/pgm-stefvanboven/Partygram"
+        },
+
+        {
+          "id": 8,
+          "icon": "ri-eye-fill",
+          "name": "Screencast",
+          "url": "assets/video/Partygram.mp4"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "image": "assets/img/portfolio.png",
+      "name": "Portfolio",
+      "year": "2024",
+      "status": "In Progress",
+      "socials": [
+        {
+          "id": 9,
+          "icon": "ri-github-fill",
+          "name": "Github",
+          "url": "https://github.com/pgm-stefvanboven/Portfolio_Stef-Van-Boven"
+        },
+        {
+          "id": 10,
+          "icon": "ri-eye-fill",
+          "name": "Website",
+          "url": "https://pgm-stefvanboven.github.io/Portfolio_Stef-Van-Boven/"
+        }
+      ]
     }
   ]
 }
