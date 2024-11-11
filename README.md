@@ -15,7 +15,7 @@ This is a portfolio of Stef Van Boven. My portfolio contains clear information a
 This project is in progress.
 
 ## About
-This project is a portfolio of Stef Van Boven. My portfolio contains clear information about who I am and what I do along with a list of projects and a contact form. The portfolio is made with HTML, CSS and JavaScript. The portfolio is responsive and works on all devices. The portfolio is hosted on GitHub Pages. The link to the portfolio is: [Portfolio Stef Van Boven](https://stefvanboven.github.io/Portfolio_Stef-Van-Boven/).
+This project is a portfolio of Stef Van Boven. My portfolio contains clear information about who I am and what I do along with a list of projects and a contact form. The portfolio is made with HTML, CSS and JavaScript. The portfolio is responsive and works on all devices. The portfolio is hosted on GitHub Pages. The link to the portfolio is: [Portfolio Stef Van Boven]().
 
 ## Pages
 The portfolio contains the following pages:
