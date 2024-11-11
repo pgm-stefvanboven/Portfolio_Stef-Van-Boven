@@ -1,23 +1,21 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // Controleer of de pagina de homepage is
-  const isHomePage = window.location.pathname.includes('index');
+  const isHomePage = window.location.pathname.endsWith("index.html") || window.location.pathname === "/";
 
   fetch("./assets/js/data/projects.json")
     .then((response) => response.json())
     .then((data) => {
       let projectsToShow = data.projects;
 
-      // Sorteer projecten op jaar (nieuwste eerst) en status (In Progress eerst)
+      // Sorteer projecten op jaar en status
       projectsToShow = projectsToShow.sort((a, b) => {
         const yearDifference = new Date(b.year) - new Date(a.year);
         if (yearDifference === 0) {
-          // Binnen hetzelfde jaar, geef "In Progress" voorrang boven "Finished"
           return a.status === "In Progress" && b.status === "Finished" ? -1 : 1;
         }
         return yearDifference;
       });
 
-      // Beperk het aantal projecten tot de drie meest recente
+      // Beperk het aantal projecten tot de drie meest recente alleen op de homepage
       if (isHomePage) {
         projectsToShow = projectsToShow.slice(0, 3);
       }
@@ -28,7 +26,6 @@ document.addEventListener("DOMContentLoaded", function () {
         const projectDiv = document.createElement("div");
         projectDiv.classList.add("work__content");
 
-        // Maak de HTML voor de social links van het project
         const socialLinks = project.socials
           .map(
             (social) =>
@@ -38,7 +35,6 @@ document.addEventListener("DOMContentLoaded", function () {
           )
           .join("");
 
-        // Stel de status icon class in op basis van de projectstatus
         const statusIconClass = project.status === "Finished" ? "ri-check-line check" :
           (project.status === "In Progress" ? "ri-time-line progress" : "");
 
