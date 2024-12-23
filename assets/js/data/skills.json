@@ -1,0 +1,154 @@
+{
+    "Skills": [
+        {
+            "title": "HTML",
+            "progress": 70,
+            "state": "Still learning",
+            "image": "assets/img/about-html.svg"
+        },
+        {
+            "title": "CSS",
+            "progress": 60,
+            "state": "Still learning",
+            "image": "assets/img/about-css.svg"
+        },
+        {
+            "title": "JavaScript",
+            "progress": 70,
+            "state": "Still learning",
+            "image": "assets/img/about-javascript.svg"
+        },
+        {
+            "title": "Laravel",
+            "progress": 60,
+            "state": "Still learning",
+            "image": "assets/img/about-laravel.svg"
+        },
+        {
+            "title": "PHP",
+            "progress": 80,
+            "state": "Still learning",
+            "image": "assets/img/about-php.svg"
+        },
+        {
+            "title": "Craft CMS",
+            "progress": 70,
+            "state": "Still learning",
+            "image": "assets/img/about-craftcms.svg"
+        },
+        {
+            "title": "MySQL",
+            "progress": 70,
+            "state": "Still learning",
+            "image": "assets/img/mysql-logo.svg"
+        },
+        {
+            "title": "Docker",
+            "progress": 100,
+            "state": "Still using",
+            "image": "assets/img/docker-4.svg"
+        },
+        {
+            "title": "Bootstrap",
+            "progress": 70,
+            "state": "Still learning",
+            "image": "assets/img/about-bootstrap.svg"
+        },
+        {
+            "title": "Tailwind CSS",
+            "progress": 70,
+            "state": "Still learning",
+            "image": "assets/img/about-tailwind-css.svg"
+        },
+        {
+            "title": "Sass",
+            "progress": 70,
+            "state": "Still learning",
+            "image": "assets/img/about-sass.svg"
+        },
+        {
+            "title": "Next JS",
+            "progress": 50,
+            "state": "Still learning",
+            "image": "assets/img/about-next-js.svg"
+        },
+        {
+            "title": "React",
+            "progress": 50,
+            "state": "Still learning",
+            "image": "assets/img/about-react.svg"
+        },
+        {
+            "title": "React Native",
+            "progress": 50,
+            "state": "Still learning",
+            "image": "assets/img/react-native.svg"
+        },
+        {
+            "title": "Vue JS",
+            "progress": 50,
+            "state": "Still learning",
+            "image": "assets/img/vue.svg"
+        },
+        {
+            "title": "Vite JS",
+            "progress": 60,
+            "state": "Still learning",
+            "image": "assets/img/vitejs.svg"
+        },
+        {
+            "title": "Node JS",
+            "progress": 50,
+            "state": "Still learning",
+            "image": "assets/img/nodejs.svg"
+        },
+        {
+            "title": "NPM",
+            "progress": 80,
+            "state": "Still learning",
+            "image": "assets/img/npm.svg"
+        },
+        {
+            "title": "Expo Go App",
+            "progress": 60,
+            "state": "Still learning",
+            "image": "assets/img/expo-go-app.svg"
+        },
+        {
+            "title": "Supabase",
+            "progress": 90,
+            "state": "Still learning",
+            "image": "assets/img/about-Supabase.svg"
+        },
+        {
+            "title": "GitHub",
+            "progress": 100,
+            "state": "Still using",
+            "image": "assets/img/about-github-white.svg"
+        },
+        {
+            "title": "Figma",
+            "progress": 100,
+            "state": "Still using",
+            "image": "assets/img/about-figma.svg"
+        },
+        {
+            "title": "Photoshop",
+            "progress": 60,
+            "state": "Still learning",
+            "image": "assets/img/about-photoshop.svg"
+        },
+        {
+            "title": "Illustrator",
+            "progress": 60,
+            "state": "Still learning",
+            "image": "assets/img/about-illustrator.svg"
+        },
+        {
+            "title": "GIMP",
+            "progress": 60,
+            "state": "Still learning",
+            "image": "assets/img/gimp-logo.png"
+        }
+    ]
+}
