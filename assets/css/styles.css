@@ -135,11 +135,11 @@ body.dark-theme {
 	Color changes in some parts of 
 	the website, in dark theme
 ==========*/
-.dark-thme .bg-header {
+.dark-theme .bg-header {
   box-shadow: 0 12px 24px var(--shadow-color);
 }
 
-.dark-thme .hobbies__modal {
+.dark-theme .hobbies__modal {
   background-color: hsla(var(--hue), 90%, 8%, .2);
 }
 
@@ -251,7 +251,7 @@ body.dark-theme {
   transition: color .4s;
 }
 
-*/ .nav__toggle,
+.nav__toggle,
 .nav__close {
   display: inline-flex;
   font-size: 1.5rem;
@@ -910,12 +910,22 @@ body.dark-theme {
   text-align: center;
 }
 
+
 /* Contact subtitle styling */
 .contact__subtitle {
   font-size: 1.2rem;
   color: var(--white-color);
   font-weight: bold;
   margin-bottom: 0.3rem;
+}
+
+.contact-light,
+.contact-light-icon {
+  color: var(--title-color);
+}
+
+.contact-light-icon:hover {
+  color: var(--first-color);
 }
 
 /* Contact text styling */
@@ -1228,10 +1238,6 @@ body.dark-theme {
     right: 0;
   }
 
-  .home__social-link {
-    color: var(--first-color);
-  }
-
   .home__button {
     justify-self: flex-start;
   }
@@ -1274,7 +1280,7 @@ body.dark-theme {
   }
 
   .about__container {
-    grid-template-columns: 800px;
+    grid-template-columns: 875px;
   }
 
   .work__container {

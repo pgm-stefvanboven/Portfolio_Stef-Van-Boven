@@ -123,7 +123,28 @@
           "id": 10,
           "icon": "ri-eye-fill",
           "name": "Website",
-          "url": "https://pgm-stefvanboven.github.io/Portfolio_Stef-Van-Boven/"
+          "url": "https://stef-van-boven.netlify.app/"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "image": "assets/img/fantasy-character-website.png",
+      "name": "Fantasy Character Website",
+      "year": "2025",
+      "status": "In Progress",
+      "socials": [
+        {
+          "id": 11,
+          "icon": "ri-github-fill",
+          "name": "Github",
+          "url": "https://github.com/pgm-stefvanboven/Stefs-Heroic-Chronicles-Legends"
+        },
+        {
+          "id": 12,
+          "icon": "ri-eye-fill",
+          "name": "Website",
+          "url": "https://stefs-legendary-chronicles.netlify.app/"
         }
       ]
     }
