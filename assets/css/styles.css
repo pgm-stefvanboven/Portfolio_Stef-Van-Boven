@@ -211,7 +211,7 @@ body.dark-theme {
   overflow: hidden;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: baseline;
   background: linear-gradient(180deg,
       hsl(var(--hue), 90%, 80%),
       hsl(var(--hue), 90%, 30%));
